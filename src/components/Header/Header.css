@@ -1,0 +1,34 @@
+.cabezal{
+    height: 10vh;
+    width: 100vw;
+    background-color: pink;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.mx{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.logo{
+    width: 30%;
+}
+.menunav{
+    width: 70%;
+}
+@media (max-width: 768px) {
+    .mx {
+      flex-direction: column; 
+      text-align: center; 
+    }
+  
+    .logo, .menunav {
+      width: 100%; 
+    }
+  
+    .cabezal {
+      height: auto; 
+    }
+  }

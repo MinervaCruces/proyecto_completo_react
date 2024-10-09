@@ -1,0 +1,27 @@
+.menu{
+    float: flex;
+    justify-content: center;
+    padding-left: 25px;
+}
+.menu > li{
+    display: inline;  
+}
+.menu > li > a {
+    color: grey;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center; 
+}
+@media (max-width: 768px) {
+    .menu {
+      flex-direction: column; 
+      align-items: center; 
+    }
+  
+    .menu > li {
+      margin-bottom: 10px; 
+    }
+ }

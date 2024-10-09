@@ -1,0 +1,9 @@
+.milogo > img{
+    width: 50px;
+    margin-left: 15px;
+    display: flex;
+}
+.text-logo{
+    color: black;
+    padding-right: 10px;
+}
